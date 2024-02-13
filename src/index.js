@@ -1,5 +1,4 @@
 function currentTemp(response) {
-  console.log(response)
   let currentDateElement = document.querySelector("#current-date");
   let currentDate = new Date();
   let temperatureElement = document.querySelector("#current-temperature-value");
@@ -76,7 +75,6 @@ function weatherSearch(cityElement){
 }
 
 function weatherForecast(response){
-  console.log(response)
  let forecastHtml = "";
 
 
