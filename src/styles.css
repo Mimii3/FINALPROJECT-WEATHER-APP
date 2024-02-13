@@ -110,8 +110,7 @@ footer {
     justify-content: start;
     justify-content: space-around;
     flex-direction: row;
-    max-width: 50px;
-    margin: auto;
+    width: 75%;
     font-size: small;
 }
 
