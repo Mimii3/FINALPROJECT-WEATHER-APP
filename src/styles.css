@@ -107,10 +107,19 @@ footer {
 }
 .weather-forecast {
     display: flex;
-    justify-content: start;
     justify-content: space-around;
-    flex-direction: row;
-    width: 75%;
     font-size: small;
+}
+.forecast-images{
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.days-of-the-week .forecast-temp{
+    display: flex;
+    justify-content: center;
+
 }
 
