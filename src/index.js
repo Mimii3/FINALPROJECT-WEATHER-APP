@@ -81,7 +81,7 @@ function weatherForecast(response){
     response.data.daily.forEach (function(forecastFormattedDay) {
         forecastHtml= 
           forecastHtml +  `<div class="weather-forecast" id="weather-forecast">
-<p class="days-of-the-week" id ="days-of-the-week"> ${forecastDate(forecastFormattedDay.time)} <img src = "${forecastFormattedDay.condition.icon_url}" class="forecast-images"/><div class="forecast-temp"> <strong><em>${Math.round(forecastFormattedDay.temperature.maximum)}</em></strong> °/${Math.round(forecastFormattedDay.temperature.minimum)} °</div></p>
+<p class="days-of-the-week" id ="days-of-the-week"> ${forecastDate(forecastFormattedDay.time)} <img src = "${forecastFormattedDay.condition.icon_url}" class="forecast-images"/><div class="forecast-temp"> <strong><em>${Math.round(forecastFormattedDay.temperature.maximum)}</em></strong>°/ ${Math.round(forecastFormattedDay.temperature.minimum)}°</div></p>
 </div>`;
     });
 

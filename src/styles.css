@@ -111,9 +111,9 @@ footer {
     font-size: small;
 }
 .forecast-images{
-    width: 30px;
-    height: 30px;
-    margin: auto;
+    width: 25px;
+    height: 25px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     position: relative;
